@@ -1,0 +1,61 @@
+/* General App styling */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.todo-input button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Todo list styling */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Todo item styling */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Todo buttons styling */
+.todo-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add space between Edit and Delete buttons */
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
